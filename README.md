@@ -25,7 +25,6 @@ The challenge is to utilize this endpoint to create a mobile-friendly, client ap
   * `headline`, `subheadline`, `date`, `icon_path` (as an image), `city`, `state`, and `publisher_short_name`
 * Includes a `Load more` button, if there are more events to fetch, that appends to the list on each click. Utilize the `size` and `start` query params for paging.
 * Allows filtering by `state_association_key`. If no key is provided, then return all of the upcoming events.
-* Closely matches the user interface outlined below.
 
 <br>
 
