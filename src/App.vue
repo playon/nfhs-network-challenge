@@ -1,26 +1,25 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <CodingInstructions title="Coding challenge"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CodingInstructions from './components/CodingInstructions.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CodingInstructions
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="less">
+  @import './assets/variables.less';
+
+  body {
+    font-family: @font-family;
+    background-color: @app-background-color;
+    color: @default-color;
+    margin: 1.5rem;
+  }
 </style>
