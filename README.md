@@ -26,8 +26,6 @@ The challenge is to utilize this endpoint to create a mobile-friendly, client ap
 * Includes a `Load more` button, if there are more events to fetch, that appends to the list on each click. Utilize the `size` and `start` query params for paging.
 * Allows filtering by `state_association_key`. If no key is provided, then return all of the upcoming events.
 
-<br>
-
 ### User Interface
 Use the provided [design file](https://www.figma.com/file/nouZGv6iIBNonDynso5MgV/Untitled?type=design&node-id=0%3A1&t=UeI1IamFDszizWo6-1) and the screenshot below for reference.
 
