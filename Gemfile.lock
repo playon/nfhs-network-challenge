@@ -86,6 +86,11 @@ GEM
       warden (~> 1.2.3)
     diff-lcs (1.5.1)
     erubi (1.13.0)
+    factory_bot (6.5.0)
+      activesupport (>= 5.0.0)
+    factory_bot_rails (6.4.3)
+      factory_bot (~> 6.4)
+      railties (>= 5.0.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.6)
@@ -194,6 +199,8 @@ GEM
       rspec-mocks (~> 3.13)
       rspec-support (~> 3.13)
     rspec-support (3.13.1)
+    shoulda-matchers (6.4.0)
+      activesupport (>= 5.2.0)
     sqlite3 (1.7.3-aarch64-linux)
     sqlite3 (1.7.3-arm-linux)
     sqlite3 (1.7.3-arm64-darwin)
@@ -226,12 +233,14 @@ DEPENDENCIES
   bootsnap
   debug
   devise
+  factory_bot_rails
   logger
   mutex_m
   ostruct
   puma (~> 5.0)
   rails (~> 7.0.8, >= 7.0.8.5)
   rspec-rails
+  shoulda-matchers
   sqlite3 (~> 1.4)
   tzinfo-data
 
